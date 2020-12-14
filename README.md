@@ -57,6 +57,10 @@ AutoML provided the ability to run multiple experiments and choose best clasfica
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
+* While running AutoML pipeline **Class Imbalance** alert was generated, this is one of the future improvements that should be implemented. We can look at different ways to combat class imbalance, such as - resampling training data, generate synthetic samples using SMOTE or the Synthetic Minority Over-sampling Technique, etc.
+
+* Look at other performance metric such as Precision, Recall and F1 Score as Accuracy metric can be misleading while working with class imbalanced dataset 
+
 ## Proof of cluster clean up
 
 ![Screenshot (316)](https://user-images.githubusercontent.com/6285945/102023095-1f62b380-3db1-11eb-8ddf-c46b3ff9a644.png)
