@@ -55,7 +55,6 @@ AutoML provided the ability to run multiple experiments and choose best clasfica
 * Using AutoML one could try several classification models, this activity if performed using HyperDrive will entail some effort as it would require configuring pipeline for each model.
 
 ## Future work
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
 * While running AutoML pipeline **Class Imbalance** alert was generated, this is one of the future improvements that should be implemented. We can look at different ways to combat class imbalance, such as - resampling training data, generate synthetic samples using SMOTE or the Synthetic Minority Over-sampling Technique, etc.
 
