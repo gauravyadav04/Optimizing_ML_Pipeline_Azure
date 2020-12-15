@@ -47,7 +47,7 @@ AutoML provided the ability to run multiple experiments and choose best clasfica
 
 Overall 15 classification models were run as can be seen in the below snapshot. VotingEnsemble algorithm proved to be the best model with an accuracy of 91.6%. VotingEnsemble takes a majority vote of several algorithms, this make it extremely robust and helps reduce the bias associated with individual algorithms.
 
-![Screenshot (313)](https://user-images.githubusercontent.com/6285945/102023134-5933ba00-3db1-11eb-9f83-c44c6b94a6cf.png)
+![Screenshot (319)](https://user-images.githubusercontent.com/6285945/102170310-11e52080-3eba-11eb-9b5a-b8260b610308.png)
 
 ## Pipeline comparison
 
@@ -63,6 +63,6 @@ Overall 15 classification models were run as can be seen in the below snapshot. 
 
 ## Proof of cluster clean up
 
-![Screenshot (316)](https://user-images.githubusercontent.com/6285945/102023095-1f62b380-3db1-11eb-8ddf-c46b3ff9a644.png)
+![Screenshot (321)](https://user-images.githubusercontent.com/6285945/102170348-288b7780-3eba-11eb-92b3-25163de097c2.png)
 
-![Screenshot (315)](https://user-images.githubusercontent.com/6285945/102023108-343f4700-3db1-11eb-902d-c3a17af464a0.png)
+![Screenshot (320)](https://user-images.githubusercontent.com/6285945/102170370-350fd000-3eba-11eb-8073-eb5e42fb306a.png)
