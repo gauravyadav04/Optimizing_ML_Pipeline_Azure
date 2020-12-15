@@ -45,7 +45,34 @@ BanditPolicy is used here which is an "aggressive" early stopping policy. It cut
 
 AutoML provided the ability to run multiple experiments and choose best clasfication model. 
 
-Overall 15 classification models were run as can be seen in the below snapshot. VotingEnsemble algorithm proved to be the best model with an accuracy of 91.6%. VotingEnsemble takes a majority vote of several algorithms, this make it extremely robust and helps reduce the bias associated with individual algorithms.
+Overall 14 classification models were run, VotingEnsemble algorithm proved to be the best model with an accuracy of 91.6%. VotingEnsemble takes a majority vote of several algorithms, this make it extremely robust and helps reduce the bias associated with individual algorithms.
+
+LightGBM Classifier was one of the algorithms used in VotingEnsemble, below are the hyperparameters associated with it -
+
+```
+0 - lightgbmclassifier
+{'boosting_type': 'gbdt',
+ 'class_weight': None,
+ 'colsample_bytree': 1.0,
+ 'importance_type': 'split',
+ 'learning_rate': 0.1,
+ 'max_depth': -1,
+ 'min_child_samples': 20,
+ 'min_child_weight': 0.001,
+ 'min_split_gain': 0.0,
+ 'n_estimators': 100,
+ 'n_jobs': 1,
+ 'num_leaves': 31,
+ 'objective': None,
+ 'random_state': None,
+ 'reg_alpha': 0.0,
+ 'reg_lambda': 0.0,
+ 'silent': True,
+ 'subsample': 1.0,
+ 'subsample_for_bin': 200000,
+ 'subsample_freq': 0,
+ 'verbose': -10}
+ ```
 
 ![Screenshot (319)](https://user-images.githubusercontent.com/6285945/102170310-11e52080-3eba-11eb-9b5a-b8260b610308.png)
 
