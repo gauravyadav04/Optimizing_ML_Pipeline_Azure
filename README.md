@@ -74,6 +74,7 @@ LightGBM Classifier was one of the algorithms used in VotingEnsemble, below are 
  'verbose': -10}
  ```
 
+Below screenshot lists all the classification models executed by AutoML
 ![Screenshot (319)](https://user-images.githubusercontent.com/6285945/102170310-11e52080-3eba-11eb-9b5a-b8260b610308.png)
 
 ## Pipeline comparison
