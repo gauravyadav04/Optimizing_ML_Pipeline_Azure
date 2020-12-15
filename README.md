@@ -45,7 +45,7 @@ BanditPolicy is used here which is an "aggressive" early stopping policy. It cut
 
 AutoML provided the ability to run multiple experiments and choose best clasfication model. 
 
-Overall 15 classification models were run as can be seen in the below snapshot. Voting Ensemble algorithm proved to be the best model with an accuracy of 91.6%. 
+Overall 15 classification models were run as can be seen in the below snapshot. VotingEnsemble algorithm proved to be the best model with an accuracy of 91.6%. VotingEnsemble takes a majority vote of several algorithms, this make it extremely robust and helps reduce the bias associated with individual algorithms.
 
 ![Screenshot (313)](https://user-images.githubusercontent.com/6285945/102023134-5933ba00-3db1-11eb-9f83-c44c6b94a6cf.png)
 
